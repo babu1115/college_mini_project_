@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1><div class="logo">ADVENTURE</div></h1>
+        <ul class="nav-links">
+        <li class="active"><a href=""></a>Home</li>
+        <li><a href=""></a>Tours</li>
+        <li><a href=""></a>Explore</li>
+        <li><a href=""></a>About</li>
+        <li class="ctn"><a href="" ></a>Contact</li>
+        </ul>
+       <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>NAAV</h2>
+            <div class="line"></div>
+            <h1>EXPLORE THE WORLD</h1>
+            <a class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- == Events == -->
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./img/img1.png" alt="">
+            <h4>Treking in INDIA</h4>
+            <p>Enjoy the rough and tough area of mountains and explore a new world of dreams with lots of fun activities including beutifull sunsets and sunrise across the india</p>
+            <a href="#" class="ctn">Explore More</a>
+        </div>
+        <div class="col">
+            <img src="./img/img2.png" alt="">
+            <h4>Walking Holidays</h4>
+            <p>Explore the imencse smells of tea leafs in many hill station just like without tea your day is incpmlete similarly without visting these places your holiday is incomplete</p>
+            <a href="#" class="ctn">Explore More</a>
+        </div>
+    </div>
+</section>
+
+<!-- Explore Section -->
+
+<section class="explore">
+    <div class="explore-content">
+    <h1> Explore The World </h1>
+    <div class="line"></div>
+    <p>Leave all your work load aside and ready to travel the world explore some new things so that u can see a good part of your life</p>
+    <a href="" class="ctn">Explore More</a>
+    </div>
+</section>
+
+<!-- Tours Section -->
+
+<section class="tours">
+    <div class="row">
+        <div class="content-col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Now you can plan your future trip easily for ur upcoing holidays so come with us and make ur trip memorable</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="image-col">
+            <div class="img-gallery">
+                <img src="./img/img3.png" alt="">
+                <img src="./img/img4.png" alt="">
+                <img src="./img/img5.png" alt="">
+                <img src="./img/img6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p>Meerut Institute Of Technology, Uttarpradesh, India | Phone:+91-700-458-1521  | Email: anubhavrajmgr000@gmail.com
+        <p>follow instagram:-yadav_anubhav_23</p>
+    </p>
+    <p>
+        -----Copyright @ anubhavyadav2024 reserved---
+    </p>
+</section>
+
+<!-- script -->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+    
+menuBtn.addEventListener('click',()=>{
+    navlinks.classList.toggle('mobile-menu')
+})
+
+    </script>
+</body>
+</html>
